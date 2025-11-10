@@ -57,7 +57,7 @@ The foundation of every agent is built on three key components:
 
 ### 🖐️ Tools (The Hands)
 - Allow the agent to interact with the world.  
-- Categories include:
+- Categories include: 
   - Retrieval tools (RAG, search)
   - Action tools (API calls)
   - Human-in-the-loop tools
