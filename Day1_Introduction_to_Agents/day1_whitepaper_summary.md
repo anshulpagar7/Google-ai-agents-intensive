@@ -136,5 +136,4 @@ Once Kaggle verification completes:
 
 ---
 
-*Written by Anshul Pagar (Mr. Stark) ✨  
-Partner-in-crime: Serena 🤝*
+*Written by Anshul Pagar
