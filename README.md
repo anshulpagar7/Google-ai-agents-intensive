@@ -1,47 +1,122 @@
-# Google-ai-agents-intensive
-My learning journey from the Google × Kaggle 5-Day AI Agents Intensive Course
-# 🤖 Google × Kaggle 5-Day AI Agents Intensive
+🤖 Google × Kaggle — 5-Day AI Agents Intensive
+My Learning Journey Building Real-World Autonomous AI Agents
 
-Welcome!  
-This repo documents my journey through the **Google × Kaggle AI Agents Intensive Course**, where I’m learning to build intelligent, autonomous AI agents powered by Gemini and the Agent Development Kit (ADK).
+This repository contains my complete work, notes, and hands-on notebooks from the Google × Kaggle 5-Day AI Agents Intensive Course.
+Across these 5 days, I’m learning to build production-grade AI agents using:
 
----
+Google’s Agent Development Kit (ADK)
 
-## 🗓️ Overview
+Gemini 2.5 models
 
-| Day | Topic | Highlights |
-|:--:|:--|:--|
-| 1 | Introduction to Agents | Understanding architecture (Model + Tools + Orchestration) |
-| 2 | Reasoning & Tools | Deep dive into tool-use, function calling |
-| 3 | Memory & Sessions | Adding memory and multi-step context |
-| 4 | Multi-Agent Collaboration | Designing agent teams and workflows |
-| 5 | Capstone Project | Building a real-world autonomous agent |
+Custom tools
 
----
+Multi-agent orchestration
 
-## 🧠 What I’m Learning
-- How agents use the **Think → Act → Observe** cycle  
-- How to orchestrate multiple agents using ADK  
-- How to connect Gemini models to real-world APIs  
-- How to evaluate, monitor, and improve agents (AgentOps)
+Real-world workflows (sequential, parallel, looped)
 
----
+Tool delegation, code execution, and more
 
-## ⚙️ Tech Stack
-- **Python 3.11**
-- **Google Agent Development Kit (ADK)**
-- **Gemini 2.5 Models**
-- **Kaggle Notebooks**
+🗂️ Folder Structure
+📂 google-ai-agents-intensive/
+ ├── Day1_Introduction_to_Agents/
+ │    ├── day1a_first_agent.ipynb
+ │    ├── day1b_multi_agent_systems.ipynb
+ │    └── day1_summary.md
+ │
+ ├── Day2_Agent_Tools/
+ │    ├── day2_agent_tools.ipynb
+ │    ├── day2_summary.md
+ │    └── README.md (optional)
+ │
+ └── README.md  ← (this file)
 
----
+📆 Progress Overview
+✅ Day 1 – Introduction to Agents
 
-## 🌟 My Progress
-- ✅ Finished Day 1 Whitepaper  
-- 🔄 Waiting for Kaggle API verification  
-- 🚀 Next: Building my first Gemini-powered agent
+Learned the foundations of agentic AI:
 
----
+What agents are (Model + Tools + Orchestration)
 
-## 💬 Connect
-Feel free to fork, star ⭐, or discuss ideas!  
-You can reach me on Discord under the Kaggle 5DGAI server 👋
+The Think → Act → Observe loop
+
+Built my first Gemini-powered agent using ADK
+
+Used Google Search as a tool
+
+Explored the ADK Web Interface
+
+Built multi-agent systems:
+
+Research + Summary orchestration
+
+Sequential workflows
+
+Parallel workflows
+
+Loop-based refinement workflows
+
+Files:
+
+day1a_first_agent.ipynb
+
+day1b_multi_agent_systems.ipynb
+
+day1_summary.md
+
+✅ Day 2 – Agent Tools & Custom Logic
+
+Learned how to give agents real capabilities beyond LLM reasoning:
+
+🔧 Custom Function Tools
+
+Converted Python functions into ADK tools:
+
+get_fee_for_payment_method()
+
+get_exchange_rate()
+
+🤖 Agent Tools
+
+Built agents that use other agents as callable tools.
+
+🧮 Built-In Code Executor
+
+Created a calculation agent that:
+
+Generates Python code
+
+Executes it safely
+
+Produces accurate math results
+
+💱 Enhanced Currency Converter Agent
+
+A full AI workflow:
+
+Looks up fees
+
+Looks up exchange rates
+
+Delegates math to a Calculation Agent
+
+Produces a fully explained financial breakdown
+
+Files:
+
+day2_agent_tools.ipynb
+
+day2_summary.md
+
+🎯 What’s Coming Next
+
+Day 2B: Tool patterns + error fallback
+
+Day 3: Memory, sessions & context handling
+
+Day 4: Multi-agent collaboration at scale
+
+Day 5: Final capstone agent
+
+🌟 Goal
+
+By the end of this course, I’ll have built end-to-end autonomous agents capable of reasoning, tool use, delegation, and real-world action — ready for production-level AI projects.
