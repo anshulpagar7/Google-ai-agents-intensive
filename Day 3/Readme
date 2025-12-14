@@ -1,0 +1,24 @@
+# Day 3 – Memory Management (Sessions & Context)
+
+## Covered Topics
+- Stateless nature of LLMs and why memory is needed
+- Session and Event-based conversation management
+- InMemorySessionService vs DatabaseSessionService
+- Persistent conversations using SQLite
+- Context Compaction for long conversations
+- Session State management using custom tools
+
+## Key Concepts Learned
+- Sessions store conversation history as Events
+- Persistent sessions survive restarts and crashes
+- Context compaction reduces token usage and cost
+- Session state allows structured memory (e.g., user name, country)
+- Sessions are isolated but can share user-scoped state
+
+## Practical Outcomes
+- Built a stateful chatbot that remembers user details
+- Implemented database-backed memory
+- Verified automatic context summarization
+- Managed session state using ToolContext
+
+
